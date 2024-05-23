@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte: Oxanium;
+}
+
+
+body {
+    color: white;
+    background-color: black;
+}
+
+body::before {
+    content: "";
+    background-image: url(../imagens/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: var(--fonte);
+    font-weight: bold;
+}
+
+p {
+    font-family: var(--fonte);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.personagens {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.personagens p {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(0, 253, 240);
+}
+
+.personagens .lista-de-personagem {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-de-personagem .personagem {
+    padding: 15px;
+}
+
+/* .card-img {
+    
+} */
+
+/* .card-img:hover {
+    box-shadow: 0px 0px 24px 5px #0271f7;
+} */
+
+.personagem-selecionado {
+    width: 30%;
+}
+
+/* .personagem-grande {
+    width: 100%;
+} */
+
+.personagem-selecionado h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    border-bottom: 2px solid rgb(0, 253, 240);
+}
+
+.personagem-selecionado p {
+    text-align: center;
+}
+
+.selecionado {
+    box-shadow: 0px 0px 24px 5px #0271f7;
+}
+
+@media screen and (max-width: 393px) {
+    .personagens {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .personagem-selecionado {
+        width: 90%;
+    }
+    
+    main {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 394px) and (max-width: 430px) {
+
+    .personagens {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .personagem-selecionado {
+        width: 90%;
+    }
+    
+    main {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media screen and (min-width: 431px) and (max-width: 459px) {
+
+    main {
+        flex-direction: column-reverse;
+        font-size: 15px;
+    }
+
+    .personagens {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .personagem-selecionado {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1049px) and (max-width: 1229px) {
+
+    .personagens {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1537px) {
+
+    .personagens {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1538px) {
+
+    .personagens {
+        width: 40%;
+    }
+}
