@@ -19,7 +19,7 @@ function entrouJeanGrey() {
     }
     cardMenor[2].setAttribute("class", "selecionado");
     imagemPersonagem.setAttribute("src", "./src/imagens/card-jean-grey.png")
-    nomePersonagem.innerHTML = "Jean-Grey";    
+    nomePersonagem.innerHTML = "Jean Grey";    
     descricaoPersonagem.innerHTML = "Uma telepata nível ômega, assim como telecinética, Jean Grey apresenta um potencial incalculável para telepatia e já se tornou hospedeira da entidade cósmica Fênix, que detém controle sobre o ciclo de vida e morte de todas as coisas.";
 }
 
@@ -40,7 +40,7 @@ function entrouWolverine() {
     cardMenor[4].setAttribute("class", "selecionado");
     imagemPersonagem.setAttribute("src", "./src/imagens/card-wolverine.png")
     nomePersonagem.innerHTML = "Wolverine";    
-    descricaoPersonagem.innerHTML = "Logan nasceu com a capacidade de se curar de qualquer ferimento, sentidos aguçados como os de um predador alfa e ejetar pelos punhos longas garras ósseas extremamente afiadas, que mais tarde se tornariam poderosas lâminas de Adamantium capazes de cortar tudo.";
+    descricaoPersonagem.innerHTML = "Logan tem a capacidade de se curar de qualquer ferimento, sentidos aguçados como os de um predador alfa e longas garras ósseas extremamente afiadas, que mais tarde se tornaram poderosas lâminas de Adamantium capazes de cortar tudo.";
 }
 
 function entrouNoturno() {
@@ -60,7 +60,7 @@ function entrouTempestade() {
     cardMenor[6].setAttribute("class", "selecionado");
     imagemPersonagem.setAttribute("src", "./src/imagens/card-tempestade.png")
     nomePersonagem.innerHTML = "Tempestade";    
-    descricaoPersonagem.innerHTML = "Ororo é capaz de manipular o clima como bem entender, gerando temíveis tempestades carregadas de relâmpagos, tornados e nevascas. Seu potencial para manipulação climática se estende até mesmo às tempestade cósmicas, conferindo à sua mutação a categoria nível ômega.";
+    descricaoPersonagem.innerHTML = "Capaz de manipular o clima como bem entender, Ororo gera temíveis tempestades carregadas de relâmpagos, tornados ou nevascas. Sua manipulação climática se estende até mesmo às tempestades cósmicas, conferindo à sua mutação o nível ômega.";
 }
 
 function entrouVampira() {
@@ -80,6 +80,6 @@ function entrouMagneto() {
     cardMenor[8].setAttribute("class", "selecionado");
     imagemPersonagem.setAttribute("src", "./src/imagens/card-magneto.png")
     nomePersonagem.innerHTML = "Magneto";    
-    descricaoPersonagem.innerHTML = "Erik Magnus Lensherr é dotado da capacidade de manipular o metal livremente, seja o ferro contido no sangue de uma vítima afortunada, um prédio com toneladas de vigas de ferro ou o campo magnético do planeta Terra.";
+    descricaoPersonagem.innerHTML = "Erik Lensherr é dotado da capacidade de manipular o metal livremente, seja o ferro contido no sangue de seu alvo, um prédio com toneladas de vigas de ferro ou o campo magnético do planeta Terra.";
 }
 
