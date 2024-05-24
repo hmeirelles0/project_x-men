@@ -1,4 +1,4 @@
-<h1 align="center">Hello there 👋</h1>
+<h1 align="center">Olá 👋</h1>
 
 Este projeto foi desenvolvido tendo como seu foco principal elementos de responsividade, com o objetivo de tornar o conteúdo da página flexível e adaptável às dimensões de tela do usuário, seja uma tela de Desktop ou de mobile.
 
