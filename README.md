@@ -12,11 +12,11 @@ Já na configuração mobile, através do uso de propriedades CSS como ```displa
 
 <h1 align="center">Hello there 👋</h1>
 
-This project was developed having its main focus on responsiveness features, with the goal of making the content of the page shift and adapt according to the user's viewport measures, mainly on Desktop and Mobile-sized screens.
+This project was developed having its main focus on responsive features, with the goal of making the content of the page shift and adapt according to the user's viewport measures, mainly on Desktop and Mobile-sized screens.
 
-When in desktop-sized configuration, the sessions making up the page are aligned as in a row, putting everything side by side.
+When in desktop-sized screens, the sessions making up the page are aligned in a side by side fashion (row).
 
-When in mobile configuration, through the use of CSS properties such as ```display: flex``` and ```flex-direciton: column reverse``` working in tandem with the ```@media``` feature, the page's content will be reshaped into one column so as to avoid the need for side-scrolling.
+When in mobile, through the use of CSS properties such as ```display: flex``` and ```flex-direciton: column reverse``` working in tandem with the ```@media``` feature, the page's content will be reshaped into one column so as to avoid the need for side-scrolling.
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
